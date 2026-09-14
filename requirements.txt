@@ -1,0 +1,6 @@
+opencv-python>=4.8
+numpy
+matplotlib
+tqdm
+pytest
+cv_bridge

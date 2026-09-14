@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+
+# ROS 2 build artifacts
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Provided source media (download into media/input/ - see README)
+media/input/
+
+# Local-only working files
+fullres/
+_inspect/
+_chk/
+debug_mask.png

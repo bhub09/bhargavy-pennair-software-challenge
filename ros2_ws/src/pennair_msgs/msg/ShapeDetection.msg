@@ -1,0 +1,4 @@
+geometry_msgs/Point32 center
+geometry_msgs/Polygon outline
+float32 area
+geometry_msgs/Point32 position

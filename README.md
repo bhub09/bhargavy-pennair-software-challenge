@@ -153,5 +153,5 @@ decision and the approaches that were tested and discarded:
 - [Detection algorithm](docs/detection_algorithm_report.md) - why texture rather than colour, the variance computation, and why Otsu needed a log transform to work here
 - [Failure analysis](docs/failure_analysis_report.md) - generalizing to the gravel background: the false positives, the filters that did nothing, and the one that worked
 - [3D localization](docs/3d_coord_report.md) - pinhole model, depth from a known radius, the clipped-circle bug, and error propagation
-- [ROS 2 design](docs/ros2_report.md) - node split, message design, and measured throughput
+- [ROS 2 design](docs/ros2_report.md) - node split, message design, and measurements
 

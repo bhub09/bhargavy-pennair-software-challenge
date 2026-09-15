@@ -54,7 +54,7 @@ def calculate_depth(circle: ShapeDetection, frame_shape: tuple) -> float:
 
 def calculate_coords(detection: ShapeDetection, depth: float,
                         frame_shape: tuple) -> tuple[float, float, float]:
-     
+    # calculate the 3D coordinates (X, Y, Z) of the shape based on its center, depth, and focal lengths
     fx, fy = _scaled_focal(frame_shape)
     h, w = frame_shape[:2]    # height and width of the image
     u = detection["center"][0] - w / 2      # principal point is (0,0), so

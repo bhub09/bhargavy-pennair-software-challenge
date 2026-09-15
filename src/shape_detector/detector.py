@@ -6,13 +6,12 @@ from typing import TypedDict
 
 CLIP_PERCENTILE = 99
 MIN_SOLIDITY = 0.7  
-K_FRACTION = 0.01  # 1% of frame width/height
+K_FRACTION = 0.01  # 1% of frame width
 MIN_AREA_FRACTION = 0.005               # 0.5% of frame area
 
 # Part 3 variables
-VAR_FRACTION      = 0.004
-SMOOTH_FRACTION   = 0.015
-
+VAR_FRACTION      = 0.004   # variance kernel size as a fraction of frame width
+SMOOTH_FRACTION   = 0.015   # smoothing kernel size as a fraction of frame width
 
 
 
